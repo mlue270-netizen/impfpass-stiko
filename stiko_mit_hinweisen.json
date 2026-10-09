@@ -1,0 +1,759 @@
+{
+  "schemaVersion": 1,
+  "jahr": 2026,
+  "version": 6,
+  "datum": "10.09.2026",
+  "datenstand": "STIKO 2026 – Version 6 – 10.09.2026",
+  "impfstoffe": [
+    {
+      "name": "Tetanus",
+      "kurzname": "T",
+      "kategorien": [
+        "ALLE"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "1. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 2
+        },
+        {
+          "doseNummer": 2,
+          "bezeichnung": "2. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 4,
+          "mindestAbstandMonate": 2,
+          "empfAbstandMonate": 2
+        },
+        {
+          "doseNummer": 3,
+          "bezeichnung": "3. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 11,
+          "mindestAbstandMonate": 6,
+          "empfAbstandMonate": 7
+        },
+        {
+          "doseNummer": 4,
+          "bezeichnung": "1. Auffrischung",
+          "fruehestAlterMonate": 60,
+          "spaetestAlterMonate": 83,
+          "hinweis": "STIKO: Auffrischung im Alter 5–6 Jahre"
+        },
+        {
+          "doseNummer": 5,
+          "bezeichnung": "2. Auffrischung",
+          "fruehestAlterMonate": 108,
+          "spaetestAlterMonate": 203,
+          "hinweis": "STIKO: Auffrischung im Alter 9–16 Jahre"
+        }
+      ],
+      "dauerauffrischungMonate": 120,
+      "hinweis": "Danach Auffrischung alle 10 Jahre",
+      "automatik": true
+    },
+    {
+      "name": "Diphtherie",
+      "kurzname": "d/D",
+      "kategorien": [
+        "ALLE"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "1. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 2
+        },
+        {
+          "doseNummer": 2,
+          "bezeichnung": "2. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 4,
+          "mindestAbstandMonate": 2,
+          "empfAbstandMonate": 2
+        },
+        {
+          "doseNummer": 3,
+          "bezeichnung": "3. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 11,
+          "mindestAbstandMonate": 6,
+          "empfAbstandMonate": 7
+        },
+        {
+          "doseNummer": 4,
+          "bezeichnung": "1. Auffrischung",
+          "fruehestAlterMonate": 60,
+          "spaetestAlterMonate": 83,
+          "hinweis": "STIKO: Auffrischung im Alter 5–6 Jahre"
+        },
+        {
+          "doseNummer": 5,
+          "bezeichnung": "2. Auffrischung",
+          "fruehestAlterMonate": 108,
+          "spaetestAlterMonate": 203,
+          "hinweis": "STIKO: Auffrischung im Alter 9–16 Jahre"
+        }
+      ],
+      "dauerauffrischungMonate": 120,
+      "hinweis": "Danach Auffrischung alle 10 Jahre",
+      "automatik": true
+    },
+    {
+      "name": "Pertussis (Keuchhusten)",
+      "kurzname": "ap",
+      "kategorien": [
+        "ALLE"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "1. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 2
+        },
+        {
+          "doseNummer": 2,
+          "bezeichnung": "2. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 4,
+          "mindestAbstandMonate": 2,
+          "empfAbstandMonate": 2
+        },
+        {
+          "doseNummer": 3,
+          "bezeichnung": "3. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 11,
+          "mindestAbstandMonate": 6,
+          "empfAbstandMonate": 7
+        },
+        {
+          "doseNummer": 4,
+          "bezeichnung": "1. Auffrischung",
+          "fruehestAlterMonate": 60,
+          "spaetestAlterMonate": 83,
+          "hinweis": "STIKO: Auffrischung im Alter 5–6 Jahre"
+        },
+        {
+          "doseNummer": 5,
+          "bezeichnung": "2. Auffrischung",
+          "fruehestAlterMonate": 108,
+          "spaetestAlterMonate": 203,
+          "hinweis": "STIKO: Auffrischung im Alter 9–16 Jahre"
+        }
+      ],
+      "hinweis": "Erwachsene: einmalig Pertussis bei der nächsten fälligen Td-Impfung; zusätzliche Indikationen beachten",
+      "automatik": true
+    },
+    {
+      "name": "Polio (Kinderlähmung)",
+      "kurzname": "IPV",
+      "kategorien": [
+        "ALLE"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "1. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 2
+        },
+        {
+          "doseNummer": 2,
+          "bezeichnung": "2. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 4,
+          "mindestAbstandMonate": 2,
+          "empfAbstandMonate": 2
+        },
+        {
+          "doseNummer": 3,
+          "bezeichnung": "3. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 11,
+          "mindestAbstandMonate": 6,
+          "empfAbstandMonate": 7
+        },
+        {
+          "doseNummer": 4,
+          "bezeichnung": "Auffrischung",
+          "fruehestAlterMonate": 108,
+          "spaetestAlterMonate": 203,
+          "hinweis": "STIKO: Auffrischung im Alter 9–16 Jahre"
+        }
+      ],
+      "hinweis": "Weitere Polio-Impfungen nur bei fehlendem Schutz oder besonderer Indikation",
+      "automatik": true
+    },
+    {
+      "name": "Haemophilus influenzae Typ b",
+      "kurzname": "Hib",
+      "kategorien": [
+        "KINDER"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "1. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 2
+        },
+        {
+          "doseNummer": 2,
+          "bezeichnung": "2. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 4,
+          "mindestAbstandMonate": 2,
+          "empfAbstandMonate": 2
+        },
+        {
+          "doseNummer": 3,
+          "bezeichnung": "3. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 11,
+          "mindestAbstandMonate": 6,
+          "empfAbstandMonate": 7
+        }
+      ],
+      "hinweis": "Standardimpfung im Säuglingsalter; Nachholen grundsätzlich bis unter 5 Jahre",
+      "automatik": true
+    },
+    {
+      "name": "Hepatitis B",
+      "kurzname": "HB",
+      "kategorien": [
+        "KINDER"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "1. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 2
+        },
+        {
+          "doseNummer": 2,
+          "bezeichnung": "2. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 4,
+          "mindestAbstandMonate": 2,
+          "empfAbstandMonate": 2
+        },
+        {
+          "doseNummer": 3,
+          "bezeichnung": "3. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 11,
+          "mindestAbstandMonate": 6,
+          "empfAbstandMonate": 7
+        }
+      ],
+      "hinweis": "Standardimpfung im Kindesalter; zusätzliche Indikationen möglich",
+      "automatik": true
+    },
+    {
+      "name": "Pneumokokken (Kinder)",
+      "kurzname": "PCV",
+      "kategorien": [
+        "KINDER"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "1. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 2
+        },
+        {
+          "doseNummer": 2,
+          "bezeichnung": "2. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 4,
+          "mindestAbstandMonate": 2,
+          "empfAbstandMonate": 2
+        },
+        {
+          "doseNummer": 3,
+          "bezeichnung": "3. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 11,
+          "mindestAbstandMonate": 6,
+          "empfAbstandMonate": 7
+        }
+      ],
+      "hinweis": "Standardimpfung für Säuglinge; bei Risikofaktoren gelten zusätzliche Empfehlungen",
+      "automatik": true
+    },
+    {
+      "name": "Meningokokken B",
+      "kurzname": "MenB",
+      "kategorien": [
+        "KINDER"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "1. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 2
+        },
+        {
+          "doseNummer": 2,
+          "bezeichnung": "2. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 4,
+          "mindestAbstandMonate": 2,
+          "empfAbstandMonate": 2
+        },
+        {
+          "doseNummer": 3,
+          "bezeichnung": "3. Dosis – Grundimmunisierung",
+          "fruehestAlterMonate": 12,
+          "mindestAbstandMonate": 6,
+          "empfAbstandMonate": 8
+        }
+      ],
+      "hinweis": "Standardimpfung ab 2 Monaten; Nachholen bis zum 5. Geburtstag",
+      "automatik": true
+    },
+    {
+      "name": "Masern",
+      "kurzname": "M",
+      "kategorien": [
+        "KINDER"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "1. Dosis – MMR",
+          "fruehestAlterMonate": 11,
+          "spaetestAlterMonate": 14
+        },
+        {
+          "doseNummer": 2,
+          "bezeichnung": "2. Dosis – MMR",
+          "fruehestAlterMonate": 15,
+          "spaetestAlterMonate": 23,
+          "mindestAbstandMonate": 1
+        }
+      ],
+      "hinweis": "Nachhol- und Erwachsenenempfehlungen beachten",
+      "automatik": true
+    },
+    {
+      "name": "Mumps",
+      "kurzname": "M",
+      "kategorien": [
+        "KINDER"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "1. Dosis – MMR",
+          "fruehestAlterMonate": 11,
+          "spaetestAlterMonate": 14
+        },
+        {
+          "doseNummer": 2,
+          "bezeichnung": "2. Dosis – MMR",
+          "fruehestAlterMonate": 15,
+          "spaetestAlterMonate": 23,
+          "mindestAbstandMonate": 1
+        }
+      ],
+      "hinweis": "Teil der MMR-Impfung",
+      "automatik": true
+    },
+    {
+      "name": "Röteln",
+      "kurzname": "R",
+      "kategorien": [
+        "KINDER"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "1. Dosis – MMR",
+          "fruehestAlterMonate": 11,
+          "spaetestAlterMonate": 14
+        },
+        {
+          "doseNummer": 2,
+          "bezeichnung": "2. Dosis – MMR",
+          "fruehestAlterMonate": 15,
+          "spaetestAlterMonate": 23,
+          "mindestAbstandMonate": 1
+        }
+      ],
+      "hinweis": "Teil der MMR-Impfung",
+      "automatik": true
+    },
+    {
+      "name": "Varizellen (Windpocken)",
+      "kurzname": "V",
+      "kategorien": [
+        "KINDER"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "1. Dosis",
+          "fruehestAlterMonate": 11,
+          "spaetestAlterMonate": 14
+        },
+        {
+          "doseNummer": 2,
+          "bezeichnung": "2. Dosis",
+          "fruehestAlterMonate": 15,
+          "spaetestAlterMonate": 23,
+          "mindestAbstandMonate": 1
+        }
+      ],
+      "automatik": true
+    },
+    {
+      "name": "Rotavirus",
+      "kurzname": "RV",
+      "kategorien": [
+        "KINDER"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "1. Dosis (oral)",
+          "fruehestAlterMonate": 1,
+          "spaetestAlterMonate": 3,
+          "hinweis": "Beginn ab 6 Wochen; 1. Dosis spätestens bis 12 Wochen"
+        },
+        {
+          "doseNummer": 2,
+          "bezeichnung": "2. Dosis (oral)",
+          "mindestAbstandMonate": 1
+        },
+        {
+          "doseNummer": 3,
+          "bezeichnung": "3. Dosis (nur bei 3-Dosen-Impfstoff)",
+          "mindestAbstandMonate": 1
+        }
+      ],
+      "hinweis": "Je nach Impfstoff 2 oder 3 Dosen; Serie spätestens bis 24 bzw. 32 Lebenswochen abschließen",
+      "automatik": true
+    },
+    {
+      "name": "Meningokokken ACWY",
+      "kurzname": "MenACWY",
+      "kategorien": [
+        "KINDER"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "Einmalige Standardimpfung",
+          "fruehestAlterMonate": 144,
+          "spaetestAlterMonate": 179,
+          "hinweis": "Empfohlen im Alter 12–14 Jahre"
+        }
+      ],
+      "hinweis": "Nachholimpfung bis zum Alter unter 25 Jahren; frühere MenC-Standardimpfung für Kleinkinder ist entfallen",
+      "automatik": true
+    },
+    {
+      "name": "HPV (Humane Papillomviren)",
+      "kurzname": "HPV",
+      "kategorien": [
+        "KINDER"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "1. Dosis",
+          "fruehestAlterMonate": 108,
+          "spaetestAlterMonate": 179
+        },
+        {
+          "doseNummer": 2,
+          "bezeichnung": "2. Dosis",
+          "mindestAbstandMonate": 5,
+          "empfAbstandMonate": 6
+        }
+      ],
+      "hinweis": "Standardimpfung für Mädchen und Jungen 9–14 Jahre; Nachholen bis 17 Jahre. Bei zu kurzem Abstand bzw. späterem Beginn kann eine 3. Dosis erforderlich sein.",
+      "automatik": true
+    },
+    {
+      "name": "Influenza (Grippe)",
+      "kurzname": "Inf",
+      "kategorien": [
+        "AB60"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "Jährliche Impfung",
+          "fruehestAlterMonate": 720
+        }
+      ],
+      "dauerauffrischungMonate": 12,
+      "hinweis": "Standardimpfung ab 60 Jahren, jährlich im Herbst; aktuelle STIKO-Impfstoffempfehlung beachten",
+      "automatik": true
+    },
+    {
+      "name": "Pneumokokken (Erwachsene)",
+      "kurzname": "PCV20",
+      "kategorien": [
+        "AB60"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "Einmalige Standardimpfung – PCV20",
+          "fruehestAlterMonate": 720
+        }
+      ],
+      "hinweis": "Standardimpfung ab 60 Jahren mit PCV20; bei Vorimpfungen oder Risikofaktoren gelten besondere Regeln",
+      "automatik": true
+    },
+    {
+      "name": "Herpes Zoster (Gürtelrose)",
+      "kurzname": "RZV",
+      "kategorien": [
+        "AB60"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "1. Dosis – RZV",
+          "fruehestAlterMonate": 720
+        },
+        {
+          "doseNummer": 2,
+          "bezeichnung": "2. Dosis – RZV",
+          "mindestAbstandMonate": 2,
+          "empfAbstandMonate": 2,
+          "hinweis": "In der Regel 2–6 Monate nach Dosis 1"
+        }
+      ],
+      "hinweis": "Standardimpfung ab 60 Jahren; ab 18 Jahren zusätzlich bei bestimmten Risikofaktoren",
+      "automatik": true
+    },
+    {
+      "name": "COVID-19",
+      "kurzname": "COVID",
+      "kategorien": [
+        "AB60"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "Saisonale Auffrischimpfung",
+          "fruehestAlterMonate": 720
+        }
+      ],
+      "dauerauffrischungMonate": 12,
+      "hinweis": "Für Personen ab 60 Jahren in der Regel jährliche Auffrischung im Herbst; Basisimmunität und individuelle Indikation beachten",
+      "automatik": true
+    },
+    {
+      "name": "RSV (Erwachsene)",
+      "kurzname": "RSV",
+      "kategorien": [
+        "AB75"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "Einmalige RSV-Impfung",
+          "fruehestAlterMonate": 900
+        }
+      ],
+      "hinweis": "Standardimpfung ab 75 Jahren; 60–74 Jahre nur bei entsprechender Indikation/Risikofaktoren bzw. Pflegeeinrichtung",
+      "automatik": true
+    },
+    {
+      "name": "RSV-Prophylaxe (Nirsevimab)",
+      "kurzname": "RSV-N",
+      "kategorien": [
+        "SAEUGLUNG"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "Einmalige Gabe in der 1. RSV-Saison",
+          "fruehestAlterMonate": 0,
+          "spaetestAlterMonate": 11
+        }
+      ],
+      "hinweis": "Nirsevimab ist ein monoklonaler Antikörper und kein Impfstoff; saisonale Empfehlung beachten",
+      "automatik": true
+    },
+    {
+      "name": "FSME (Zecken)",
+      "kurzname": "FSME",
+      "kategorien": [
+        "REISE"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "1. Dosis – Grundimmunisierung"
+        },
+        {
+          "doseNummer": 2,
+          "bezeichnung": "2. Dosis – Grundimmunisierung",
+          "mindestAbstandMonate": 1,
+          "empfAbstandMonate": 1
+        },
+        {
+          "doseNummer": 3,
+          "bezeichnung": "3. Dosis – Grundimmunisierung",
+          "mindestAbstandMonate": 5,
+          "hinweis": "Zeitpunkt abhängig vom verwendeten Impfstoff"
+        }
+      ],
+      "hinweis": "Schema und Auffrischintervalle sind impfstoff- und altersabhängig; Fachinformation beachten",
+      "automatik": false,
+      "manuellerFolgetermin": true,
+      "automatikHinweis": "Keine automatische Impfempfehlung. Diese Impfung kann von individuellen Voraussetzungen abhängen. Bitte ärztlich beraten lassen. Einen ärztlich festgelegten nächsten Impftermin können Sie manuell eintragen. Die App erinnert anschließend an diesen Termin."
+    },
+    {
+      "name": "Hepatitis A",
+      "kurzname": "HepA",
+      "kategorien": [
+        "REISE"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "1. Dosis – Grundimmunisierung"
+        },
+        {
+          "doseNummer": 2,
+          "bezeichnung": "2. Dosis – Langzeitschutz",
+          "mindestAbstandMonate": 6,
+          "empfAbstandMonate": 6
+        }
+      ],
+      "hinweis": "Intervall abhängig vom verwendeten Impfstoff bzw. Kombinationsimpfstoff",
+      "automatik": false,
+      "manuellerFolgetermin": true,
+      "automatikHinweis": "Keine automatische Impfempfehlung. Diese Impfung kann von individuellen Voraussetzungen abhängen. Bitte ärztlich beraten lassen. Einen ärztlich festgelegten nächsten Impftermin können Sie manuell eintragen. Die App erinnert anschließend an diesen Termin."
+    },
+    {
+      "name": "Typhus",
+      "kurzname": "Ty",
+      "kategorien": [
+        "REISE"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "Impfung vor Reise"
+        }
+      ],
+      "hinweis": "Schema und Wiederholungsimpfung abhängig vom verwendeten Impfstoff",
+      "automatik": false,
+      "manuellerFolgetermin": true,
+      "automatikHinweis": "Keine automatische Impfempfehlung. Diese Impfung kann von individuellen Voraussetzungen abhängen. Bitte ärztlich beraten lassen. Einen ärztlich festgelegten nächsten Impftermin können Sie manuell eintragen. Die App erinnert anschließend an diesen Termin."
+    },
+    {
+      "name": "Gelbfieber",
+      "kurzname": "YF",
+      "kategorien": [
+        "REISE"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "Einmalige Impfung"
+        }
+      ],
+      "hinweis": "Nur zugelassene Gelbfieberimpfstelle; Einreisebestimmungen und individuelle Indikation beachten",
+      "automatik": false,
+      "manuellerFolgetermin": true,
+      "automatikHinweis": "Keine automatische Impfempfehlung. Diese Impfung kann von individuellen Voraussetzungen abhängen. Bitte ärztlich beraten lassen. Einen ärztlich festgelegten nächsten Impftermin können Sie manuell eintragen. Die App erinnert anschließend an diesen Termin."
+    },
+    {
+      "name": "Meningokokken ACWY (Reise)",
+      "kurzname": "MenACWY-R",
+      "kategorien": [
+        "REISE"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "Impfung vor Reise"
+        }
+      ],
+      "hinweis": "Indikation und ggf. Auffrischung richten sich nach Reiseziel, Einreisevorschriften und Risiko",
+      "automatik": false,
+      "manuellerFolgetermin": true,
+      "automatikHinweis": "Keine automatische Impfempfehlung. Diese Impfung kann von individuellen Voraussetzungen abhängen. Bitte ärztlich beraten lassen. Einen ärztlich festgelegten nächsten Impftermin können Sie manuell eintragen. Die App erinnert anschließend an diesen Termin."
+    },
+    {
+      "name": "Tollwut (Präexposition)",
+      "kurzname": "Tollwut",
+      "kategorien": [
+        "REISE"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "1. Dosis – Tag 0"
+        },
+        {
+          "doseNummer": 2,
+          "bezeichnung": "2. Dosis – Tag 7",
+          "mindestAbstandMonate": 0,
+          "empfAbstandMonate": 0
+        }
+      ],
+      "hinweis": "Reise-/Präexpositionsschema und weitere Dosen abhängig von Impfstoff, Risiko und Fachinformation; nach möglicher Exposition sofort ärztlich abklären",
+      "automatik": false,
+      "manuellerFolgetermin": true,
+      "automatikHinweis": "Keine automatische Impfempfehlung. Diese Impfung kann von individuellen Voraussetzungen abhängen. Bitte ärztlich beraten lassen. Einen ärztlich festgelegten nächsten Impftermin können Sie manuell eintragen. Die App erinnert anschließend an diesen Termin."
+    },
+    {
+      "name": "Japanische Enzephalitis",
+      "kurzname": "JE",
+      "kategorien": [
+        "REISE"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "1. Dosis"
+        },
+        {
+          "doseNummer": 2,
+          "bezeichnung": "2. Dosis",
+          "mindestAbstandMonate": 0,
+          "empfAbstandMonate": 1
+        }
+      ],
+      "hinweis": "Impfschema alters- und impfstoffabhängig; Reiseindikation beachten",
+      "automatik": false,
+      "manuellerFolgetermin": true,
+      "automatikHinweis": "Keine automatische Impfempfehlung. Diese Impfung kann von individuellen Voraussetzungen abhängen. Bitte ärztlich beraten lassen. Einen ärztlich festgelegten nächsten Impftermin können Sie manuell eintragen. Die App erinnert anschließend an diesen Termin."
+    },
+    {
+      "name": "Cholera",
+      "kurzname": "Cholera",
+      "kategorien": [
+        "REISE"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "1. Dosis (oral)"
+        },
+        {
+          "doseNummer": 2,
+          "bezeichnung": "2. Dosis (oral)",
+          "mindestAbstandMonate": 0
+        }
+      ],
+      "hinweis": "Schema hängt vom verwendeten Impfstoff und Alter ab; Reiseindikation beachten",
+      "automatik": false,
+      "manuellerFolgetermin": true,
+      "automatikHinweis": "Keine automatische Impfempfehlung. Diese Impfung kann von individuellen Voraussetzungen abhängen. Bitte ärztlich beraten lassen. Einen ärztlich festgelegten nächsten Impftermin können Sie manuell eintragen. Die App erinnert anschließend an diesen Termin."
+    },
+    {
+      "name": "Chikungunya",
+      "kurzname": "CHIK",
+      "kategorien": [
+        "REISE"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "Impfung bei Reiseindikation"
+        }
+      ],
+      "hinweis": "Nur bei STIKO-Indikation nach individueller Risiko-Nutzen-Abwägung; Impfstoff, Alter und Kontraindikationen beachten",
+      "automatik": false,
+      "manuellerFolgetermin": true,
+      "automatikHinweis": "Keine automatische Impfempfehlung. Diese Impfung kann von individuellen Voraussetzungen abhängen. Bitte ärztlich beraten lassen. Einen ärztlich festgelegten nächsten Impftermin können Sie manuell eintragen. Die App erinnert anschließend an diesen Termin."
+    }
+  ],
+  "appHinweis": "Die ImpfPass-App ist eine umfangreiche Hilfestellung zur Dokumentation, Orientierung und Erinnerung rund um Impfungen. Sie ersetzt keine individuelle medizinische Beratung oder Impfentscheidung durch eine Ärztin oder einen Arzt."
+}
