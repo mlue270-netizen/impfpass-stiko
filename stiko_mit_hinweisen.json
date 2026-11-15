@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "jahr": 2026,
-  "version": 6,
-    "datum": "10.09.2026",
-  "datenstand": "STIKO 2026 – Version 6 – 10.09.2026",
+  "version": 7,
+  "datum": "15.11.2026",
+  "datenstand": "TEST – STIKO 2026 – Version 7 – 15.11.2026 (NICHT VERÖFFENTLICHEN)",
   "impfstoffe": [
     {
       "name": "Tetanus",
@@ -753,6 +753,22 @@
       "automatik": false,
       "manuellerFolgetermin": true,
       "automatikHinweis": "Keine automatische Impfempfehlung. Diese Impfung kann von individuellen Voraussetzungen abhängen. Bitte ärztlich beraten lassen. Einen ärztlich festgelegten nächsten Impftermin können Sie manuell eintragen. Die App erinnert anschließend an diesen Termin."
+    },
+    {
+      "name": "TESTIMPFUNG 31 (NICHT ECHT)",
+      "kurzname": "TEST31",
+      "kategorien": [
+        "REISE"
+      ],
+      "dosen": [
+        {
+          "doseNummer": 1,
+          "bezeichnung": "Testdosis – keine echte Impfung"
+        }
+      ],
+      "hinweis": "Ausschließlich technischer Test. Keine medizinische Empfehlung.",
+      "automatik": false,
+      "manuellerFolgetermin": true
     }
   ],
   "appHinweis": "Die ImpfPass-App ist eine umfangreiche Hilfestellung zur Dokumentation, Orientierung und Erinnerung rund um Impfungen. Sie ersetzt keine individuelle medizinische Beratung oder Impfentscheidung durch eine Ärztin oder einen Arzt."
